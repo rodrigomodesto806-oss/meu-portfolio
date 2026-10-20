@@ -190,11 +190,15 @@ flex-direction: column-reverse;
 gap: 20px;
 }
 
+#projeto-container .projeto>h2 {
+  padding: 10px;
+}
+
 #projeto-container .projeto {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  background-color: var(--fundo-principal);
+  background-color: var(--fundo-card);
   padding: 10px;
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
@@ -202,7 +206,7 @@ gap: 20px;
 }
 
 #projeto-container .projeto:hover {
-  border-color: var(--destaque);
+  border-color: var(--fundo-principal);
   border-left: 15px;
   cursor: pointer;
 }
